@@ -161,5 +161,5 @@ def handler(event, context):
     return app(event, context)
 
 # هذا السطر لن يتم استخدامه في Vercel
- if __name__ == "__main__":
+if __name__ == "__main__":
      app.run(host='0.0.0.0', port=5000)
